@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Cats</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Random Cats</h1>
+  </header>
+  <section id="randomMichis" class="container">
+    <h2>Michis App</h2>
+    <span id="error"></span>
+    <article>
+      <img id="img1" alt="random kittens photo" class="image">
+      <button id="btn1" class="random-cat-button" onclick="saveFavoriteMichis()">
+        save to favorites
+      </button> 
+    </article>
+    <article>
+      <img id="img2" alt="random kittens photo" class="image">
+      <button id="btn2" class="random-cat-button" onclick="saveFavoriteMichis()">
+        save to favorites
+      </button> 
+    </article>
+    
+    </article>  
+    <button class="random-cat-button" onclick="loadRandomMichis()">Reload</button>    
+  </section>
+  <section id="favoritesMichis">
+    <h2>Michis Favorites</h2>
+    
+  </section>
+  <script src="./main.js"></script>
+</body>
+
+</html>
